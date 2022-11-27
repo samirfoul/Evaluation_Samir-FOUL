@@ -1,0 +1,190 @@
+/***************************************************************
+FONTS 
+****************************************************************/
+@font-face {
+  font-family: "libration";
+  src: url("/font/LiberationSans-Regular-webfont.ttf") format("ttf"),
+    url("/font/LiberationSans-Bold-webfont.ttf") format("ttf");
+}
+
+/***************************************************************
+GENERALITES 
+****************************************************************/
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Liberation", Garamond, Verdana, Serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+}
+
+/**************************************************************************
+HADEAR 
+***************************************************************************/
+header {
+  background-color: #f4f4f4;
+}
+.sitamet {
+  color: orange;
+}
+
+div nav li a {
+  color: black;
+  text-decoration: none;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+.bonjour {
+  margin-left: 55px;
+  margin-top: 40px;
+}
+#logo {
+  margin-top: 40px;
+}
+ul {
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+/**************************************************************************************
+CONTAINER (block1)
+***************************************************************************************/
+.bloc1 {
+  background-color: rgb(34, 33, 33);
+}
+/* .text-gant{
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+#btn{
+    background-color:black;
+    color: white;
+    padding:5px 33px;
+    border-radius: 1px;
+}
+.prix {
+    text-decoration: line-through; 
+    color: white;
+    font-size: 25px;
+}
+#nv-prix{
+    color: orange;
+    text-decoration: none;
+
+} */
+.img-fluid {
+  background-color: rgb(34, 33, 33);
+}
+.container {
+  background-color: white;
+  margin: 0px auto;
+}
+#contenant {
+  position: relative;
+}
+
+#btn {
+  background-color: black;
+  color: white;
+  padding: 5px 33px;
+  border-radius: 5px;
+  margin-bottom: 100px;
+}
+#nv-prix {
+  color: orange;
+  text-decoration: none !important;
+  margin-left: 25px;
+  font-weight: bold;
+  /* margin-left: 70px; */
+  font-size: 25px;
+}
+.prix {
+  text-decoration: line-through;
+  color: black;
+  font-size: 25px;
+  margin-left: 20px;
+}
+.text-img2 {
+  background-color: black;
+  color: orange;
+  border-radius: 5px;
+  padding: 8px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.text-img {
+  color: black;
+  margin: 0 auto;
+  top: -50%;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/***************************************************************************************************
+FOOTER (block2)
+****************************************************************************************************/
+
+.bloc2 {
+  background-color: #373737;
+}
+
+.nav2 {
+  width: 500px;
+  height: 50px;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  box-shadow: 2px 2px 2px 1px rgba(230, 230, 238, 0.2);
+  position: relative;
+  bottom: 20px;
+  border: 2px #f4f4f4 solid;
+}
+
+.nav2 ul li a {
+  text-decoration: none;
+  padding-left: 30px;
+  text-align: center;
+  color: black;
+}
+.nav2 ul {
+  margin-bottom: 30px;
+}
+
+.text-bloc2 {
+  text-align: center;
+  color: white;
+}
+
+footer {
+  position: relative;
+  text-align: center;
+  /* border-bottom: 5px solid; */
+}
+.icon {
+  margin-bottom: 20px;
+}
+.icons {
+  margin-bottom: 30px;
+}
+.copyright {
+  color: white;
+  padding-bottom: 30px;
+}
